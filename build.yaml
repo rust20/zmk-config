@@ -18,10 +18,11 @@
 #
 ---
 include:
-  # - board: nice_nano_v2
-  #   shield: corne_left
-  # - board: nice_nano_v2
-  #   shield: corne_right
+  - board: nice_nano_v2
+    shield: corne_left
+  - board: nice_nano_v2
+    shield: corne_right
+
   # - board: nice_nano_v2
   #   shield: microdox_v2_left
   #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
@@ -30,6 +31,7 @@ include:
   #   shield: microdox_v2_right
   #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
   #   artifact-name: microdox_right_with_logging
+
   # - board: nice_nano_v2
   #   shield: microdox_left
   #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
@@ -38,11 +40,12 @@ include:
   #   shield: microdox_right
   #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
   #   artifact-name: microdox_left_with_logging
-  - board: nice_nano_v2
-    shield: callum_left
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-    artifact-name: microdox_right_with_logging
-  - board: nice_nano_v2
-    shield: callum_right
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-    artifact-name: microdox_left_with_logging
+
+  # - board: nice_nano_v2
+  #   shield: callum_left
+  #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+  #   artifact-name: microdox_right_with_logging
+  # - board: nice_nano_v2
+  #   shield: callum_right
+  #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+  #   artifact-name: microdox_left_with_logging
