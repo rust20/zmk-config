@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #include "zmk-helpers/helper.h"
-#include "mouse.dtsi"
+// #include "mouse.dtsi"
 
 #define DEF_L 0 
 #define NAV_L 1 
@@ -178,7 +178,7 @@ ZMK_CONDITIONAL_LAYER(sys, NAV_L SYM_L, NUM_L)  // FN + NUM --> SYS
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
 // | f1  | f2  | f5  | ret |  ~  |   |  -  |  =  |  [  |  ]  |  \  |
 // | f9  | f10 | f11 | f12 |  `  |   |  _  |  +  |  {  |  }  | "|" |
-//             | GUI |     | SPC |   | ENT |     | ALT |
+//             | esc |     | tab |   | spc |     | bspc |
 
 // // &kp tab
 // // &kp swapwin
@@ -233,7 +233,7 @@ _BT_SEL_KEYS_2_   &kp C_PREV  &kp C_NEXT &kp C_PLAY_PAUSE ___       &kp PG_DN   
 // |  1   |   2  |   3   |    4   |  5  |   | 6   | 7      | 8     | 9    | 0    |
 // | lgui | lalt | lctrl | lshift | f11 |   | f12 | lshift | rctrl | ralt | rgui |
 // | f1   | f2   | f3    | f4     | f5  |   | f6  | f7     | f8    | f9   | f0   |
-//             | GUI |     | SPC |   | ENT |     | ALT |
+//               | esc   |        | tab |   | spc |        | bspc |
                         bindings = <
    &kp 1    &kp 2    &kp 3     &kp 4      &kp 5          &kp 6     &kp 7      &kp 8     &kp 9    &kp 0   
    &sk LGUI &sk LALT &sk LCTRL &sk LSHIFT &kp f11        &kp f12   &sk LSHIFT &sk RCTRL &sk RALT &sk RGUI
