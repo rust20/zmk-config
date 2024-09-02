@@ -1,2 +1,11 @@
+.build
+.direnv
+.venv
+.west
+modules
+firmware
+zmk
+
+zephyr
 
 .zmk/
